@@ -1,0 +1,3 @@
+[submodule "ArcadiaPokemonMiniCore/PokeMini"]
+	path = ArcadiaPokemonMiniCore/PokeMini
+	url = https://github.com/libretro/PokeMini
