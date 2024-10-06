@@ -19,7 +19,18 @@ import ArcadiaCore
     public var audioVideoInfo: retro_system_av_info = retro_system_av_info(geometry: retro_game_geometry(base_width: 96, base_height: 64, max_width: 96, max_height: 64, aspect_ratio: 1.5), timing: retro_system_timing(fps: 72.0, sample_rate: 44100.0))
     public var initialSaveRamSnapshot: [UInt8]? = nil
     public var currentSaveRamSnapshot: [UInt32 : [UInt8]]? = [:]
-    public var defaultCoreOptions: [ArcadiaCoreOption] = []
+    public var defaultCoreOptions: [ArcadiaCoreOption] = [
+        ArcadiaCoreOption(key: "pokemini_lcdfilter", selectedValue: "dotmatrix"),
+        ArcadiaCoreOption(key: "pokemini_lcdmode", selectedValue: "0"),
+        ArcadiaCoreOption(key: "pokemini_lcdcontrast", selectedValue: "64"),
+        ArcadiaCoreOption(key: "pokemini_lcdbright", selectedValue: "0"),
+        ArcadiaCoreOption(key: "pokemini_palette", selectedValue: "Default"),
+        ArcadiaCoreOption(key: "pokemini_piezofilter", selectedValue: "1"),
+        ArcadiaCoreOption(key: "pokemini_screen_shake_lv", selectedValue: "3"),
+        ArcadiaCoreOption(key: "pokemini_lowpass_filter", selectedValue: "disabled"),
+        ArcadiaCoreOption(key: "pokemini_lowpass_range", selectedValue: "disabled"),
+        ArcadiaCoreOption(key: "pokemini_rumble_lv", selectedValue: "10")
+    ]
     
     public init() {
     }
