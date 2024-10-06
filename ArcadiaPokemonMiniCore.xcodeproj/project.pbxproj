@@ -282,9 +282,6 @@
 					"-D__LIBRETRO__",
 					"-DNDEBUG",
 					"-O2",
-					"-DMSB_FIRST",
-					"-D__ppc__",
-					"-DSTATIC_LINKING",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davideandreoli.ArcadiaPokemonMiniCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -336,9 +333,6 @@
 					"-D__LIBRETRO__",
 					"-DNDEBUG",
 					"-O2",
-					"-DMSB_FIRST",
-					"-D__ppc__",
-					"-DSTATIC_LINKING",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davideandreoli.ArcadiaPokemonMiniCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
